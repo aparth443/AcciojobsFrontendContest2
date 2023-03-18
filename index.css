@@ -1,0 +1,287 @@
+
+body{
+    background-color: #1F1F1F;
+}
+.header-container{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.company-name{
+    color: white;
+    font-family: Poppins;
+    font-style: bold;
+    font-size: 48px;
+    font-weight: 700;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 27px;
+
+}
+
+.search{
+    background-color: #262626;
+    width: 560px;
+    height: 53px;
+    margin-top: 33px;
+    margin-left: 100px;
+    font-size: 24px;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
+
+input.search[type="text"]::placeholder{
+    font-size: 24px;
+    text-indent: 28px;
+}
+
+.login{
+    height: 53px;
+    width:120px;
+    border: none;
+    background-color: #262626;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 33px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 22px;
+    color:#FFFFFF;
+    
+}
+
+.explore{
+    height: 53px;
+    width:120px;
+    border: none;
+    background-color: #262626;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 33px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 22px;
+    color:#FFFFFF;
+}
+
+.rent{
+    height: 53px;
+    width:110px;
+    border: none;
+    background-color: #262626;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 33px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 22px;
+    color:#FFFFFF;
+}
+
+.about-us{
+    display: flex;
+    margin-left: 150px;
+    margin-top:100px;
+    height: 500px;
+    width: 1000px;
+    background-color: #262626;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+.heading{
+    color: white;
+    font-size: 48px;
+    font-family: Poppins;
+    margin-left: 50px;
+    font-weight: 700;
+}
+
+.service{
+    display: flex;
+    justify-content: space-around;
+}
+
+.items{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tags{
+    display: flex;
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 100px;
+    background-color: #FECB03;
+}
+
+.img1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #FECB03;
+
+}
+
+.knowmore{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tagline{
+    color: white;
+    font-size: 24px;
+    font-family: Poppins;
+    margin-left: 30px;
+    margin-top: 25px;
+    justify-self: center;
+}
+.know-more-button{
+    height: 70px;
+    width: 200px;
+    background-color: #FECB03;
+    border-radius: 50px;
+    border: none;
+    color: black;
+    font-size:22px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.category-heading{
+    color:white;
+    font-size: 48px;
+    font-family: Poppins;
+    font-weight: 600;
+    margin-left: 160px;
+    margin-top: 150px;
+    margin-bottom:100px;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.category1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.category2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+}
+
+.electronics1{
+    width: 250px;
+    border: 1px solid #262626;
+    border-radius: 20px;
+    align-items: center;
+    padding:20px;
+}
+
+.electronics2{
+    width: 250px;
+    border: 1px solid #262626;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 40px;
+    padding:20px;
+}
+
+.title{
+    color: #C4C4C4;
+    font-size: 22px;
+    font-family: Poppins;
+    margin-left: 10px;
+}
+
+.paragraph{
+    color: white;
+    font-size: 15px;
+    width: 90%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.bottom-button{
+    height: 40px;
+    width: 130px;
+    margin-left: 120px;
+    background-color: #FECB03;
+    border-radius: 20px;
+    border: none;
+}
+
+
+.footer{
+    display: flex;
+    margin-left: 150px;
+    height: 270px;
+    width: 1000px;
+    background-color: #262626;
+    border-radius: 50px;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+
+.fheading{
+    color:white;
+    font-size: 48px;
+    font-family: Poppins;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+
+.para{
+    color: white;
+    font-size: 16px;
+    margin-left: 100px;
+}
+
+.footer2{
+    margin-left: 80px;
+    width: 300px;
+    display: flex;  
+    flex-direction: column;
+}
+
+.footer3{
+    margin-left: 80px;
+    width: 300px;
+    display: flex;  
+    flex-direction: column;
+}
+
+.sitemap{
+    color: white;
+    font-size: 30px;
+    font-family: Poppins;
+    margin-top: 50px;   
+}
+
+.sites{
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    margin-top: 2px;
+}
